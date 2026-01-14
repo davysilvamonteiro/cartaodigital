@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ellas Bazar</title>
+  <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+
+  <style>
+    @font-face {
+      font-family: "seasons";
+      src: url("font/the-seasons-regular.ttf") format("truetype");
+      font-weight: normal;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "seasons";
+      background-color: #A6BF9F;
+      display: grid;
+      place-items: center;
+      min-height: 100vh;
+    }
+
+    main {
+      background-color: #e9f7e3;
+      padding: 40px 30px;
+      width: 100%;
+      max-width: 420px;
+      border-radius: 30px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+
+    main img.logo {
+      width: 140px;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+
+    main h2 {
+      font-size: 2rem;
+      margin-bottom: 8px;
+      letter-spacing: 1px;
+    }
+
+    main span {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.95rem;
+      color: #5b6f55;
+    }
+
+    .social {
+      display: flex;
+      justify-content: center;
+      gap: 18px;
+      margin: 30px 0;
+    }
+
+    .social a {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background-color: #9CC193;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: 0.3s ease;
+    }
+
+    .social a:hover {
+      transform: translateY(-4px);
+      opacity: 0.85;
+    }
+
+    .social img {
+      width: 35px;
+      height: 35px;
+    }
+
+    .info {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.95rem;
+      color: #3f4d3a;
+      line-height: 1.5;
+    }
+
+    footer {
+      margin-top: 15px;
+      font-size: 0.6rem;
+      text-align: center;
+    }
+
+    footer a {
+      color: #e9f7e3;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+  </style>
+</head>
+<body>
+
+  <main>
+    <img src="imagens/logo.jpg" alt="Ellas Bazar" class="logo">
+
+    <h2>ELLAS BAZAR</h2>
+    <span>Moda feminina • Icaraí</span>
+
+    <div class="social">
+      <a href="https://www.instagram.com/ellasbazar.niteroi/" target="_blank">
+        <img src="imagens/instagram.png" alt="Instagram">
+      </a>
+      <a href="https://wa.me/5521999999999?text=Oi%20vim%20pelo%20cart%C3%A3o%20digital%20do%20Ellas%20Bazar" target="_blank" rel="external" target="_blank">
+        <img src="imagens/whatsapp.png" alt="WhatsApp">
+      </a>
+    </div>
+
+    <div class="info">
+      Rua Miguel de Frias, 206<br>
+      Sala 703 • Icaraí – RJ
+    </div>
+  </main>
+
+  <footer>
+    <a href="https://www.flaticon.com/br/icones-gratis/vestir" target="_blank">Ícones por Freepik – Flaticon</a>
+  </footer>
+
+</body>
+</html>
